@@ -10,12 +10,13 @@ public class TextScript : MonoBehaviour
     public int place;
     //en sådan här skall finnas för varje kategori, det finns 16 kategorier.
     string[] testArray = new string[16]; // creates array = RandomArray(10);  //Fyller en array med en stor mängd slumpmässiga tal
-    string[] selectedArray;
+    string[] selectedArray, combatArray, endArray, farmingArray, biomesArray, enchantingArray, miningArray, potionsArray, craftingArray, redstoneArray, animalsArray, netherArray, buildingArray, structuresArray, monstersArray, metaArray, fishingArray;
     // Start is called before the first frame update
     void Start()
     {
 
         questions = GetComponent<Text>();
+        #region asigning strings to the testArray
         testArray[0] = "test 0"; //på plats 0 är fråga "hej"
         testArray[1] = "test 1";
         testArray[2] = "test 2";
@@ -32,6 +33,26 @@ public class TextScript : MonoBehaviour
         testArray[13] = "test 13";
         testArray[14] = "test 14";
         testArray[15] = "test 15";
+        #endregion
+
+        #region combat Array Questions
+        combatArray[0] = "";
+        combatArray[1] = "";
+        combatArray[2] = "";
+        combatArray[3] = "";
+        combatArray[4] = "";
+        combatArray[5] = "";
+        combatArray[6] = "";
+        combatArray[7] = "";
+        combatArray[8] = "";
+        combatArray[9] = "";
+        combatArray[10] = "";
+        combatArray[11] = "";
+        combatArray[12] = "";
+        combatArray[13] = "";
+        combatArray[14] = "";
+        combatArray[15] = "";
+        #endregion 
 
     }
 
@@ -43,10 +64,16 @@ public class TextScript : MonoBehaviour
 
     }
 
+    #region assigning what array should be used for what button
     public void CategoryTest() //en sån här funktion bör sitta på varje knapp, unik för varje knapp för att välja vilket kategori av frågor
     {
         selectedArray = testArray;
     }
+    public void CategoryCombat() 
+    {
+        selectedArray = combatArray;
+    }
+    #endregion region
 
     /*
     public void EnableText()
