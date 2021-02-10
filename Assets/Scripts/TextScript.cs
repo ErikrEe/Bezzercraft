@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
-public class Text : MonoBehaviour
+public class TextScript : MonoBehaviour
 {
-
     public Text questions;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //questions = gameObject.GetComponent<Text>();
+        questions = GetComponent<Text>();
     }
 
     // Update is called once per frame
