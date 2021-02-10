@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
     //This function loads the "game" scene.
     public void Play()
     {
-        SceneManager.LoadSceneAsync("Game");
+        SceneManager.LoadSceneAsync("Questions");
     }
 
     //This function closes the application.
