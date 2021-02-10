@@ -20,5 +20,9 @@ public class Text : MonoBehaviour
     void Update()
     {
         
+
+
     }
+
+
 }
