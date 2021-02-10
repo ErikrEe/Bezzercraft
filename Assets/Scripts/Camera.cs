@@ -54,6 +54,8 @@ public class Camera : MonoBehaviour
         Animals.gameObject.SetActive(false);
         Meta.gameObject.SetActive(false);
         Potions.gameObject.SetActive(false);
+
+
     }
 
     public void Enable()
