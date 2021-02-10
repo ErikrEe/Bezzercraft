@@ -7,13 +7,13 @@ using UnityEngine.UIElements;
 public class Text : MonoBehaviour
 {
 
-    Text questions;
+    public Text questions;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //questions = gameObject.GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -24,5 +24,29 @@ public class Text : MonoBehaviour
 
     }
 
+    /*
+    public void EnableText()
+    {
+        Debug.Log("texttttttt");
+        questions.gameObject.SetActive(true);
+    }
 
+    public void DisableText()
+    {
+        questions.gameObject.SetActive(false);
+    }
+    */
+    
+    public void EnableText()
+    {
+        questions.gameObject.SetActive(true);
+        questions.enabled = true;
+        Debug.Log("texttttttt");
+    }
+
+    public void DisableText()
+    {
+        questions.enabled = false;
+    }
+    
 }
