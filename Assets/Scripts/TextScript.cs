@@ -52,7 +52,46 @@ public class TextScript : MonoBehaviour
         combatArray[13] = "";
         combatArray[14] = "";
         combatArray[15] = "";
-        #endregion 
+        #endregion
+
+        #region End Dimension Array Questions
+        endArray[0] = "";
+        endArray[1] = "";
+        endArray[2] = "";
+        endArray[3] = "";
+        endArray[4] = "";
+        endArray[5] = "";
+        endArray[6] = "";
+        endArray[7] = "";
+        endArray[8] = "";
+        endArray[9] = "";
+        endArray[10] = "";
+        endArray[11] = "";
+        endArray[12] = "";
+        endArray[13] = "";
+        endArray[14] = "";
+        endArray[15] = "";
+        #endregion
+
+
+        #region Farming Array Questions
+        farmingArray[0] = "";
+        farmingArray[1] = "";
+        farmingArray[2] = "";
+        farmingArray[3] = "";
+        farmingArray[4] = "";
+        farmingArray[5] = "";
+        farmingArray[6] = "";
+        farmingArray[7] = "";
+        farmingArray[8] = "";
+        farmingArray[9] = "";
+        farmingArray[10] = "";
+        farmingArray[11] = "";
+        farmingArray[12] = "";
+        farmingArray[13] = "";
+        farmingArray[14] = "";
+        farmingArray[15] = "";
+        #endregion
 
     }
 
@@ -73,6 +112,70 @@ public class TextScript : MonoBehaviour
     {
         selectedArray = combatArray;
     }
+    public void CategoryEnd()
+    {
+        selectedArray = endArray;
+    }
+    public void CategoryFarming()
+    {
+        selectedArray = farmingArray;
+    }
+    public void CategoryBiomes()
+    {
+        selectedArray = biomesArray;
+    }
+    public void CategoryEnchanting()
+    {
+        selectedArray = enchantingArray;
+    }
+    public void CategoryMining()
+    {
+        selectedArray = miningArray;
+    }
+    public void CategoryPotions()
+    {
+        selectedArray = potionsArray;
+    }
+    public void CategoryCrafting()
+    {
+        selectedArray = craftingArray;
+    }
+    public void CategoryRedstoe()
+    {
+        selectedArray = redstoneArray;
+    }
+    public void CategoryAnimals()
+    {
+        selectedArray = animalsArray;
+    }
+    public void CategoryNether()
+    {
+        selectedArray = netherArray;
+    }
+    public void CategoryBuilding()
+    {
+        selectedArray = buildingArray;
+    }
+    public void CategoryStructures()
+    {
+        selectedArray = structuresArray;
+    }
+    public void CategoryMonsters()
+    {
+        selectedArray = monstersArray;
+    }
+    public void CategoryMeta()
+    {
+        selectedArray = metaArray;
+    }
+    public void CategoryFishing()
+    {
+        selectedArray = fishingArray;
+    }
+
+
+
+
     #endregion region
 
     /*
